@@ -3,10 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DirectivesDemoComponent } from './main/directives-demo/directives-demo.component';
 
+// name.module ---> only for registrations
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DirectivesDemoComponent
   ],
   imports: [
     BrowserModule,
